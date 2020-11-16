@@ -10,6 +10,13 @@
   </head>
 
   <body>
+    <div style="background: black; color: aliceblue; padding: 16px;">
+      <h2>Navbar</h2>
+      <p>Now is <%= Time.now %><p>
+      <%= link_to "Go back home", root_path %>
+      <%= link_to "About", about_path %>
+      <%= link_to "Contacts", contact_path %>
+    </div>
     <%= yield %>
   </body>
 </html>
