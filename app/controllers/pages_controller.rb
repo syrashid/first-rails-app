@@ -4,7 +4,6 @@ class PagesController < ApplicationController
   def home; end
 
   def contact
-    raise
     @members = [ 'thanh', 'dimitri', 'germain', 'damien', 'julien' ]
     # if params[:member] exists
     if params[:member]
